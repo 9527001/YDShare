@@ -91,7 +91,7 @@ it's only a share and login
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "YDShare", "YDShare/**/*.{h,m}"
+  s.source_files  = 'YDShare/**/*.{h,m}'
   s.exclude_files = "YDShare/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
