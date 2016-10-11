@@ -16,7 +16,8 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "YDShare"
-  s.version      = "0.0.1"
+s.version      = "0.0.1"
+s.version      = "0.0.2"
   s.summary      = "custom share by umeng"
 
   # This description is used to generate tags and improve search results.
@@ -89,10 +90,10 @@ it's only a share and login
   #  giving a folder will include any swift, h, m, mm, c & cpp files.
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
-  #
 
-  s.source_files  = 'YDShare/**/*.{h,m}'
-  s.exclude_files = "YDShare/Exclude"
+    s.source_files  = 'YDShare/*.{h,m}'
+
+  #s.exclude_files = "YDShare/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
